@@ -79,3 +79,23 @@ footer {
     text-align: center;
     padding: 10px 0;
 }
+#resume {
+    background-color: #f5f5f5;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.resume-button {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.resume-button:hover {
+    background-color: #0056b3;
+}
