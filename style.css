@@ -108,3 +108,20 @@ footer {
     object-fit: cover; /* Ensures the image fills the circular space */
 }
 
+/* Style the grid container */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Adjust column width as needed */
+    gap: 20px; /* Adjust the gap between photos */
+    align-items: center;
+    justify-content: center;
+}
+
+/* Style individual photos within the grid */
+.grid-container img {
+    width: 100%; /* Ensure the images fill their grid cells */
+    height: auto;
+    border: 2px solid #ddd; /* Add a border to each photo */
+    border-radius: 5px;
+}
+
