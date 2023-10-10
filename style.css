@@ -99,3 +99,12 @@ footer {
 .resume-button:hover {
     background-color: #0056b3;
 }
+.profile-image {
+    display: block;
+    width: 500px; /* Adjust the width as needed */
+    height: 500px; /* Adjust the height as needed to maintain a circular shape */
+    border-radius: 50%; /* Makes it a circular image */
+    margin: 20px auto; /* Centers the image */
+    object-fit: cover; /* Ensures the image fills the circular space */
+}
+
