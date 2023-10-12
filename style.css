@@ -125,3 +125,21 @@ footer {
     border-radius: 5px;
 }
 
+/* Style the awards section */
+#awards {
+    background-color: #f9f9f9; /* Background color */
+    padding: 40px 0;
+}
+
+.awards-link {
+    background-color: #007bff; /* Link background color */
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.awards-link:hover {
+    background-color: #0056b3; /* Hover color */
+}
